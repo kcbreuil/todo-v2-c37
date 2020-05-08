@@ -1,0 +1,41 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  
+  .form-control {
+    width: 85%;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    border: 1px solid grey;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  ul li input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 15px;
+  }
+  
+  li.done {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  

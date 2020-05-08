@@ -54,7 +54,7 @@ Once it does that, it returns the item that was deleted:
     "completed": true
 }
 
-Update an Item (cpmpeteing a taks)
+Update an Item (completing a task)
 Put `/api/item/:id`
 
 sample request body:
@@ -66,4 +66,4 @@ sample request body:
 
 ```
 
-rerturns the updated item
+returns the updated item
